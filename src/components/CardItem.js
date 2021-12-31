@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// passing the props which we added on the cards.js and passes it down to this component in order to place it on the screen
 
 function CardItem(props) {
   return (
