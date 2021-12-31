@@ -17,7 +17,7 @@ function Navbar() {
       setButton(true);
     }
   };
-
+ // refreshing the page - showButton not showing up every single time page refreshes !!!
   useEffect(() => {
     showButton();
   }, []);
